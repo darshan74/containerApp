@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\darshan\\Desktop\\app\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\res\\merged\\release\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\darshan\\.gradle\\caches\\transforms-2\\files-2.1\\aa8cf5d9b232e21e1ebc1908a14fe1aa\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\darshan\\Desktop\\app\\platforms\\tempPlugin\\kinvey_nativescript_sdk\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\darshan\\.gradle\\caches\\transforms-2\\files-2.1\\aa8cf5d9b232e21e1ebc1908a14fe1aa\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

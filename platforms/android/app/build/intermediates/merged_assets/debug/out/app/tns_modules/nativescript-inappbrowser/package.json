@@ -1,0 +1,90 @@
+{
+  "_from": "nativescript-inappbrowser",
+  "_id": "nativescript-inappbrowser@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-+2pWk8fAuDZczUptiyAZy3x+NVb5Izol6ZXSt6RaYJWtSyP/8i1nB48QrXq51KYPVTsWoqlwC+0zeFROHbHp5g==",
+  "_location": "/nativescript-inappbrowser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-inappbrowser",
+    "name": "nativescript-inappbrowser",
+    "escapedName": "nativescript-inappbrowser",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-inappbrowser/-/nativescript-inappbrowser-1.0.2.tgz",
+  "_shasum": "5cbaa87726dbb58663fa6352597604f2c464e992",
+  "_spec": "nativescript-inappbrowser",
+  "_where": "C:\\Users\\mOdEL^\\Desktop\\a",
+  "author": {
+    "name": "Juan David Nicholls Cardona",
+    "email": "jdnichollsc@hotmail.com"
+  },
+  "bootstrapper": "nativescript-plugin-seed",
+  "bugs": {
+    "url": "https://github.com/proyecto26/nativescript-inappbrowser/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "InAppBrowser for NativeScript",
+  "devDependencies": {
+    "prompt": "^1.0.0",
+    "rimraf": "^2.6.3",
+    "semver": "^5.6.0",
+    "tns-core-modules": "^5.0.0",
+    "tns-platform-declarations": "^5.0.0",
+    "tslint": "^5.12.1",
+    "typescript": "~3.3.3"
+  },
+  "homepage": "https://github.com/proyecto26/nativescript-inappbrowser",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "browser",
+    "inappbrowser",
+    "in-app-browser",
+    "InAppBrowser"
+  ],
+  "license": "MIT",
+  "main": "InAppBrowser",
+  "name": "nativescript-inappbrowser",
+  "nativescript": {
+    "platforms": {
+      "android": "5.2.0",
+      "ios": "5.2.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proyecto26/nativescript-inappbrowser.git"
+  },
+  "scripts": {
+    "build": "npm run tsc && npm run build.native",
+    "build.native": "node scripts/build-native.js",
+    "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**' --exclude '**/platforms/**'",
+    "clean": "npm run demo.reset && npx rimraf -- node_modules package-lock.json && npm i",
+    "demo.android": "npm run tsc && cd ../demo && tns run android --syncAllFiles --emulator",
+    "demo.ios": "npm run tsc && cd ../demo && tns run ios --syncAllFiles --emulator",
+    "demo.reset": "cd ../demo && npx rimraf -- hooks node_modules platforms package-lock.json",
+    "plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-inappbrowser && tns plugin add ../src",
+    "plugin.tscwatch": "npm run tsc -- -w",
+    "postclone": "npm i && node scripts/postclone.js && cd ../demo && npm i && npx rimraf -- package-lock.json && cd ../src",
+    "prepack": "npm run build.native",
+    "test.android": "npm run tsc && npm run tslint && cd ../demo && tns build android && tns test android --justlaunch",
+    "test.ios": "npm run tsc && npm run tslint && cd ../demo && tns build ios && tns test ios --justlaunch",
+    "tsc": "npm install && tsc",
+    "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\""
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.2"
+}

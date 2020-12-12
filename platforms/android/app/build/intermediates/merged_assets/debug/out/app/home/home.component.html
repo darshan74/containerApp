@@ -1,0 +1,19 @@
+<!-- This is the home page. -->
+<!-- Look in the login folder for the login code. -->
+<ActionBar title="YOUR APP"></ActionBar>
+
+<StackLayout>
+    <Label class="body m-20" [text]="message" textWrap="true"></Label><Button class="btn btn-primary" text="Log out" (tap)="logout()"></Button>
+</StackLayout>
+
+<StackLayout orientation="horizontal">
+
+   
+    <button type="button" class="btn btn-primary "  (tap)="btnclick()" text="Google Site" row="2" col="1"  ></button>
+    <button type="button" class="btn btn-primary " (tap)="btnclick1()" text="Native Site"  row="2" col="8" > </button>
+    <button type="button" class="btn btn-primary " (tap)="btnclick2()" text="next app"  row="3" col="8" > </button>
+   
+
+</StackLayout>
+    
+

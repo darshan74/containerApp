@@ -1,0 +1,61 @@
+{
+  "_from": "nativescript-open-app",
+  "_id": "nativescript-open-app@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-CEIluHc4YkFStndjCydGzecwx7Y=",
+  "_location": "/nativescript-open-app",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-open-app",
+    "name": "nativescript-open-app",
+    "escapedName": "nativescript-open-app",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-open-app/-/nativescript-open-app-0.2.0.tgz",
+  "_shasum": "084225b87738624152b677630b2746cde730c7b6",
+  "_spec": "nativescript-open-app",
+  "_where": "C:\\Users\\darshan\\Desktop\\app",
+  "author": {
+    "name": "Ludwik Trammer",
+    "email": "ludwik@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ludwiktrammer/nativescript-open-app/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A NativeScript plugin for opening other applications on the device (with app store fallback).",
+  "homepage": "https://github.com/ludwiktrammer/nativescript-open-app",
+  "keywords": [
+    "NativeScript",
+    "Open",
+    "Open App",
+    "Android",
+    "iOS",
+    "Launch",
+    "Start"
+  ],
+  "license": "MIT",
+  "main": "./open-app.js",
+  "name": "nativescript-open-app",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.5.0",
+      "android": "2.5.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludwiktrammer/nativescript-open-app.git"
+  },
+  "typings": "./open-app.d.ts",
+  "version": "0.2.0"
+}
